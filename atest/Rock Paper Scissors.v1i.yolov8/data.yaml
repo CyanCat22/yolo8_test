@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Love', 'Paper', 'Rock', 'Scissors']
+
+roboflow:
+  workspace: gua-upjml
+  project: rock-paper-scissors-detection-mspea
+  version: 1
+  license: Private
+  url: https://universe.roboflow.com/gua-upjml/rock-paper-scissors-detection-mspea/dataset/1
